@@ -10,8 +10,8 @@
   </ul>
   
 <h5>Para configurar un formulario de esta manera se deberá seguir los siguentes pasos:</h5>
-  <h7> Paso 1: Creá un formulario de google - si bien quizá es algo obvio para configurar un formalario hay ser propietario de uno y tener permisos de edición si es de un tercero.</h7>
-  <h7>Paso 2: Ingresá al editor de código para las herramientas de Google - Ir al apartado "Editor de secuencia de comandos", esta opción se encuentra en la parte superior derecha en el simbolo de tre puentos que dice "Más", nos abrirá otra pertaña en el navegador donde nos creará un proyecto de AppScript.</h7>
-  <h7>Paso 3: Copiá y pegá el código del repositorio - Crear un archivo llamado con extensión ".gs" donde se pegará el código del archivo "autocierre.gs" que se encuentra en este repositorio y guardamos cambios con CTRL + S.</h7>
-  <h7>Paso 4: Configurá los paramatros según tus criterios - En las primeras líneas hay 2 constantes, estas son MAX_RESPONSES (para definir la cantidad de respuestas máxima) y CIERRE_FECHA_HORA (para definir la fecha límite), se deben configurar según el criterio deseado.</h7>
-  <h7>Paso 5: Configurar Activadores/Triggers: Ir al apartado Activadores en AppScript, este se encuentra la columna izquierda y es la cuarta opción, en esta sección hay que seleccionar "Añadir activador"</h7>
+  <ul><h7> Paso 1: Creá un formulario de google - si bien quizá es algo obvio para configurar un formalario hay ser propietario de uno y tener permisos de edición si es de un tercero.</h7></ul>
+  <ul><h7>Paso 2: Ingresá al editor de código para las herramientas de Google - Ir al apartado "Editor de secuencia de comandos", esta opción se encuentra en la parte superior derecha en el simbolo de tre puentos que dice "Más", nos abrirá otra pertaña en el navegador donde nos creará un proyecto de AppScript.</h7></ul>
+  <ul><h7>Paso 3: Copiá y pegá el código del repositorio - Crear un archivo llamado con extensión ".gs" donde se pegará el código del archivo "autocierre.gs" que se encuentra en este repositorio y guardamos cambios con CTRL + S.</h7></ul>
+  <ul><h7>Paso 4: Configurá los paramatros según tus criterios - En las primeras líneas hay 2 constantes, estas son MAX_RESPONSES (para definir la cantidad de respuestas máxima) y CIERRE_FECHA_HORA (para definir la fecha límite), se deben configurar según el criterio deseado.</h7></ul>
+  <ul><h7>Paso 5: Configurar Activadores/Triggers: Ir al apartado Activadores en AppScript, este se encuentra la columna izquierda y es la cuarta opción, en esta sección hay que seleccionar "Añadir activador"</h7></ul>
