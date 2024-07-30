@@ -1,4 +1,4 @@
-# Cierre Triggereado para Formularios de Google Forms
+# Cierre Triggereado para Formularios de Google
 
 <h3>Este proyecto nace de la necesidad de automatizar el cierre de los formularios de Google ante la inexistencia de esta opción para esta herramienta.</h3>
 <h5>Utilizar este script mediante la herramienta App Script se consiguen las siguentes posibilidades:</h5>
