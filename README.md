@@ -27,7 +27,7 @@
     <li>Seleccionar qué despliegue se debe ejecutar = "Principal"</li>
     <li>Selecciona la fuente del evento = "Según tiempo"</li>
     <li>Selecciona el tipo de activador basado en la hora = "Fecha y hora especifica"</li>
-    <li>En el campo inferior escribir una fecha y hora posterior a la constante CIERRE_FECHA_HORA, con un minuto es suficiente, esto es para programar una ejecución en caso que el formulario no se haya cerado por cantidad máxima de respuetas.</li>
+    <li>En el campo inferior escribir una fecha y hora posterior a la constante CIERRE_FECHA_HORA, con un minuto es suficiente, esto es para programar una ejecución en caso que el formulario no se haya cerrado por cantidad máxima de respuetas.</li>
       </ul>
     </ul>
     <ul><h7>Paso OPCIONAL 1: Configurar correo/s - Si se desea recibir notificación cuando se cierre el formulario en la 3ra línea en la constante EMAILS entre comillas y separados por comas pones los correos deseados, ej: en caso de ser uno EMAILS = ["ejemplo@mail.com"]  y en caso de ser más EMAILS = ["ejemplo@mail.com","ejemplo2@mail.com"].</h7></ul>
