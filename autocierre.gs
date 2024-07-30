@@ -14,7 +14,7 @@ function closeFormOnMaxResponsesOrDate() {
   console.log(form.isAcceptingResponses())
   
   // Verifica si se alcanzó el número máximo de respuestas o si se alcanzó la fecha y hora de cierre
-  if ((responses.length >= MAX_RESPONSES || ahora >= CIERRE_FECHA_HORA) && form.isAcceptingResponses()) {
+  if ((responses.length >= MAX_RESPONSES || (CIERRE_FECHA_HORA && ahora >= CIERRE_FECHA_HORA)) && form.isAcceptingResponses()) {
     form.setAcceptingResponses(false);
     
     var diaCierre = Utilities.formatDate(ahora, Session.getScriptTimeZone(), "dd/MM");
@@ -24,7 +24,7 @@ function closeFormOnMaxResponsesOrDate() {
     if (responses.length >= MAX_RESPONSES) {
       // Si se cerró por número de respuestas
       mensajeCierre = 'El formulario se cerró automáticamente el día ' + diaCierre + ' a las ' + horaCierre + ' por haber alcanzado el cupo máximo para esta actividad.';
-    } else {
+    } else if (CIERRE_FECHA_HORA && ahora >= CIERRE_FECHA_HORA){
       // Si se cerró por fecha y hora
       mensajeCierre = 'El formulario se cerró automáticamente el día ' + diaCierre + ' a las ' + horaCierre + ' por haber alcanzado la fecha límite de inscripción de esta actividad.';
     }
