@@ -31,6 +31,6 @@
       </ul>
     </ul>
     <ul><h7>Paso OPCIONAL 1: Configurar correo/s - Si se desea recibir notificación cuando se cierre el formulario en la 3ra línea en la constante EMAILS entre comillas y separados por comas pones los correos deseados, ej: en caso de ser uno EMAILS = ["ejemplo@mail.com"]  y en caso de ser más EMAILS = ["ejemplo@mail.com","ejemplo2@mail.com"].</h7></ul>
-    <ul><h7>Paso OPCIONAL 2: Deshabilitar uno de los condicionales - Si se desea un número indeterminado de respuestas definir la variable MAX_RESPONSES como "Infinity" y deberemos eliminar el primer activador, ej: "const MAX_RESPONSES = Infinity;", se no se quiere una fecha límite para el cierre definir CIERRE_FECHA_HORA como "null" y deberemos eliminar el segundo activador, ej: "const CIERRE_FECHA_HORA = null;".
+    <ul><h7>Paso OPCIONAL 2: Deshabilitar uno de los condicionales - Si no se quiere una fecha límite para el cierre definir CIERRE_FECHA_HORA como "null" y deberemos eliminar el segundo activador, ej: "const CIERRE_FECHA_HORA = null;".
     </h7></ul>
   
